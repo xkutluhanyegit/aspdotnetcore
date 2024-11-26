@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Server=31.145.19.54;Database=Northwind;User Id=MSSQLMASTER;Password=helloWorld1991.;TrustServerCertificate=True" "Microsoft.EntityFrameworkCore.SqlServer" -o Concrete

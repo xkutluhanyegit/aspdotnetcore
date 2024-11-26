@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kutluhan.yegit\\Desktop\\aspdotnetcore\\Core\\Core.csproj": {}
+    "C:\\Users\\kutluhan.yegit\\Desktop\\aspdotnetcore\\999 - aspdotnetcore\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kutluhan.yegit\\Desktop\\aspdotnetcore\\Core\\Core.csproj": {
+    "C:\\Users\\kutluhan.yegit\\Desktop\\aspdotnetcore\\999 - aspdotnetcore\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kutluhan.yegit\\Desktop\\aspdotnetcore\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\kutluhan.yegit\\Desktop\\aspdotnetcore\\999 - aspdotnetcore\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\aspdotnetcore\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\aspdotnetcore\\999 - aspdotnetcore\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kutluhan.yegit\\Desktop\\aspdotnetcore\\Core\\obj\\",
+        "outputPath": "C:\\Users\\kutluhan.yegit\\Desktop\\aspdotnetcore\\999 - aspdotnetcore\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kutluhan.yegit\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

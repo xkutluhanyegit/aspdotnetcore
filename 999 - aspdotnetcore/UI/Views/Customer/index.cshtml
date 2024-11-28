@@ -1,0 +1,26 @@
+@{
+    Layout = "_Layout";
+}
+@model IEnumerable<Entities.Concrete.Customer>
+<h1>Customer Page</h1>
+<table>
+    <thead>
+        <tr>
+            <td>Company Name</td>
+            <td>Contact Name</td>
+            <td>Contact Title</td>
+            <td>Address</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CompanyName</td>
+                <td>@item.ContactName</td>
+                <td>@item.ContactTitle</td>
+                <td>@item.Address</td>
+            </tr>
+        }
+    </tbody>
+</table>

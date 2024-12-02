@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Business.Abstract;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
@@ -21,6 +23,8 @@ namespace Business.Concrete
             _customerDal = customerDal;
             _mapper = mapper;
         }
+
+        [ValidationAspect(typeof(CustomerValidatior))]
         public async Task<IResult> Add(Customer customer)
         {
             await _customerDal.Add(customer);

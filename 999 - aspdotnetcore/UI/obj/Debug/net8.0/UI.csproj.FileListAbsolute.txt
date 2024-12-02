@@ -89,3 +89,4 @@ C:\Users\kutluhan.yegit\Desktop\aspdotnetcore\999 - aspdotnetcore\UI\bin\Debug\n
 C:\Users\kutluhan.yegit\Desktop\aspdotnetcore\999 - aspdotnetcore\UI\bin\Debug\net8.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\kutluhan.yegit\Desktop\aspdotnetcore\999 - aspdotnetcore\UI\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\kutluhan.yegit\Desktop\aspdotnetcore\999 - aspdotnetcore\UI\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\kutluhan.yegit\Desktop\aspdotnetcore\999 - aspdotnetcore\UI\bin\Debug\net8.0\FluentValidation.dll

@@ -4,6 +4,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Business.Abstract;
+using Business.ValidationRules.FluentValidation;
+using Entities.Concrete;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -34,6 +36,19 @@ namespace UI.Controllers
                 
             }
             return View();
+        }
+
+        [HttpPost("add")]
+        public async Task<IActionResult> Add(Customer customer)
+        {
+        
+            
+          var result = await _customerService.Add(customer);
+          if (result.Success)
+          {
+            return RedirectToAction("index","customer");
+          }
+          return View();
         }
 
         

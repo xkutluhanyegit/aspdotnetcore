@@ -15,4 +15,9 @@ namespace Core.DataAccess
         Task<T> Get(Expression<Func<T,bool>> filter);
         Task<List<T>> GetAll(Expression<Func<T,bool>> filter = null);
     }
+
+    
+ 
 }
+
+

@@ -17,6 +17,9 @@ builder.Services.AddControllersWithViews();
 // builder.Services.AddSingleton<ICustomerService,CustomerManager>();
 
 
+
+
+
 /*Autofac IOC*/
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
     .ConfigureContainer<ContainerBuilder>(builder =>
